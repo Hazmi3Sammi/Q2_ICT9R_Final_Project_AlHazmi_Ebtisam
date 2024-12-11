@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Breakfast - Selene's Chow Map</title>
+    <style>
+        body {
+           font-family: monospace;
+            background-image: url('https://i.pinimg.com/236x/87/da/89/87da89eb9403ee80728733d82b61c78d.jpg');
+            background-repeat: repeat;
+            background-size: auto;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand img {
+            height: 80px;
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #EECBF5;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+     
+        .recipe-image {
+            width: 26%;
+            height: auto;
+            margin-bottom: 20px;
+            margin-left: 190px;
+            border: 5px solid #6a0dad;  
+        }
+
+        .recipe-layout {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
+        .recipe-details{
+            width: 55%;
+            background-color: #000000a0; 
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+       h2 {
+        margin-top: 100px; 
+        background-color: #EECBF5;
+        padding: 10px;
+        border-radius: 5px;
+        
+        }
+
+        .recipe-instructions {
+            margin-top: 20px;
+            width: 55%;
+            background-color: #000000a0; 
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+            margin-left: 300px;
+ 
+        }
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar .navbar-nav {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar .navbar-nav .nav-item {
+            padding: 0 15px;
+        }
+        .navbar .form-inline {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar form {
+            width: 100%;
+            max-width: 400px; 
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="C:\Users\admin\Downloads\SELENE.png" alt="Logo"> Selene Chow Map
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catagories.html">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="recipe-form.html">Submit Recipe</a></li>
+                    
+                </ul>
+                <form class="d-flex ms-3" action="#" method="get">
+                    <input class="form-control me-2" type="search" placeholder="Search recipes" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 pt-5">
+
+ <h2 class="text-center mb-4">Fatayer bi Sabanekh</h2>
+        
+      
+        <div class="recipe-layout">
+        
+            <img src="https://i0.wp.com/plantbasedarab.com/wp-content/uploads/2023/07/Fatayer-Sabanekh-Spinach-Pies-With-Filling-Closeup-Plant-Based-Arab-scaled.jpg?fit=1828%2C2560&ssl=1" alt="Sabanikh" class="recipe-image">
+
+          
+            <div class="recipe-details">
+                <p><strong>Dough:</strong></p>
+                <ul>
+                    <li>6 cups all-purpose flour or 2 lb 7 oz sifted</li>
+                    <li>2 cups leban Middle Eastern yogurt, room temp</li>
+                    <li>1 cup olive oil</li>
+                    <li>1 teaspoon salt</li>
+                    <li>1 cup of warm water</li>
+                    <li>3 teaspoons instant dried yeast</li>
+                    <li>½ cup warm water (105°F)</li>
+                    <li>Pinch of granulated sugar</li>
+                </ul>
+
+                <p><strong>Filling:</strong></p>
+                <ul>
+                    <li>4 large red onions, chopped small dice</li>
+                    <li>2 bags of spinach (each bag is 2 lbs 4.4 oz), washed, dried, and chopped</li>
+                    <li>¼ cup lemon juice (freshly squeezed)</li>
+                    <li>1 cup olive oil</li>
+                    <li>Salt to taste</li>
+                    <li>Pomegranate molasses to taste (optional)</li>
+                </ul>
+            </div>
+        </div>
+
+       
+        <div class="recipe-instructions">
+            <p><strong>Instructions:</strong></p>
+            <ol>
+                <li>Preheat your oven to 375°F (190°C).</li>
+                <li>In a large bowl, combine all dough ingredients and knead until smooth. Let it rise for 1 hour.</li>
+                <li>For the filling, heat olive oil in a pan and sauté onions until soft. Add spinach and cook until wilted. Stir in lemon juice and season with salt.</li>
+                <li>Divide dough into small balls. Roll each ball into a circle and fill with the spinach mixture. Fold edges to form a triangle or pocket.</li>
+                <li>Place the Fatayer on a baking sheet and bake for 25 minutes or until golden brown.</li>
+                <li>Serve warm and enjoy!</li>
+            </ol>
+        </div>
+    </div>
+    <br><br>
+
+    <footer>
+        <p>&copy; 2024 Selene Chow Map | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
